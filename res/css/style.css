@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+    gap: 10px;
+}
+
+.menuImage {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.menuImage:hover {
+    transform: scale(1.2);
+}
+
+#mainImage {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
